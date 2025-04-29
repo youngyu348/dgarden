@@ -133,10 +133,14 @@ export const themeConfig: ThemeConfig = {
       {
         name: '来信',
 <<<<<<< HEAD
+<<<<<<< HEAD
         url: 'mailto:youngyue2018@outlook.com'
       }  
 =======
         url: 'mailto:youngyue2018@outlook.com', // rss.xml, atom.xml
+=======
+        url: 'https://youngyue2018@outlook.com', // rss.xml, atom.xml
+>>>>>>> 59de77d (Update config.ts)
       },
 >>>>>>> dc21834 (Update config.ts)
       // {
