@@ -6,11 +6,11 @@ export const themeConfig: ThemeConfig = {
     // site title
     title: '不求甚解',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: '“你对什么感兴趣？” “我对风，对雨，对人的心情和月亮的形状，更感兴趣。”',
     // site description
     description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true, false
+    i18nTitle: false, // true, false
     // author name
     author: 'radishzz',
     // site url
