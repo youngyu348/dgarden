@@ -132,8 +132,13 @@ export const themeConfig: ThemeConfig = {
     links: [
       {
         name: '来信',
+<<<<<<< HEAD
         url: 'mailto:youngyue2018@outlook.com'
       }  
+=======
+        url: 'mailto:youngyue2018@outlook.com', // rss.xml, atom.xml
+      },
+>>>>>>> dc21834 (Update config.ts)
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
