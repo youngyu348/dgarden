@@ -10,7 +10,7 @@ export const themeConfig: ThemeConfig = {
     // site description
     description: '“你对什么感兴趣？” “我对风，对雨，对人的心情和月亮的形状，更感兴趣。”',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true, false
+    i18nTitle: false, // true, false
     // author name
     author: 'aeon_yu',
     // site url
@@ -56,7 +56,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh', // zh, zh-tw, ja, en, es, ru
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['en'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: [], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
