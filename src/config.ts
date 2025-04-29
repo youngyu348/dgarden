@@ -8,7 +8,7 @@ export const themeConfig: ThemeConfig = {
     // site subtitle
     subtitle: '引譬连类',
     // site description
-    description: '“你对什么感兴趣？” “我对风，对雨，对人的心情和月亮的形状，更感兴趣。”',
+    description: '你对什么感兴趣？” “我对风，对雨，对人的心情和月亮的形状，更感兴趣。',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: false, // true, false
     // author name
