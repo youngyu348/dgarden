@@ -17,7 +17,7 @@ export const themeConfig: ThemeConfig = {
     url: 'https://retypeset.radishzz.cc',
     // favicon url
     // recommended formats: svg, png or ico
-    favicon: '/icon/favicon-32x32.png', // or https://example.com/favicon.svg
+    favicon: '/icon/android-chrome-192x192.png', // or https://example.com/favicon.svg
   },
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
