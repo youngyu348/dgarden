@@ -138,7 +138,7 @@ export const themeConfig: ThemeConfig = {
     links: [
       {
         name: '来信',
-        url: 'https://youngyue2018@outlook.com', // rss.xml, atom.xml
+        url: 'mailto:youngyue2018@outlook.com', // rss.xml, atom.xml
       },
       // {
       //   name: 'Email',
