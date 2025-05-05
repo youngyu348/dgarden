@@ -137,8 +137,6 @@ export const themeConfig: ThemeConfig = {
     // social links
     links: [
       {
-        name: '来信',
-        url: 'mailto:youngyue2018@outlook.com',
       },
       // {
       //   name: 'Email',
