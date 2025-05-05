@@ -30,7 +30,7 @@ const links = socialLinks.map((link) => {
   <p>
     {links.map((link, index) => (
       <>
-        <a class="transition-colors hover:c-primary" href={link.url}>
+        <a class="transition-colors hover:c-primary" href={link.url} target="_blank" rel="noopener noreferrer">
           {link.name}
         </a>
         {index < links.length - 1 && ' / '}
