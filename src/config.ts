@@ -134,6 +134,7 @@ export const themeConfig: ThemeConfig = {
         name: '来信',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         url: 'mailto:youngyue2018@outlook.com'
       }  
 =======
@@ -141,6 +142,9 @@ export const themeConfig: ThemeConfig = {
 =======
         url: 'https://youngyue2018@outlook.com', // rss.xml, atom.xml
 >>>>>>> 59de77d (Update config.ts)
+=======
+        url: 'mailto:youngyue2018@outlook.com',
+>>>>>>> dd80563 (fix: remove unnecessary comment from footer email link)
       },
 >>>>>>> dc21834 (Update config.ts)
       // {
