@@ -136,8 +136,6 @@ export const themeConfig: ThemeConfig = {
   footer: {
     // social links
     links: [
-      {
-      },
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
