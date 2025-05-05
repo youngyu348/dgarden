@@ -130,6 +130,7 @@ export const themeConfig: ThemeConfig = {
   footer: {
     // social links
     links: [
+<<<<<<< HEAD
       {
 <<<<<<< HEAD
         name: '来信',
@@ -150,6 +151,8 @@ export const themeConfig: ThemeConfig = {
 >>>>>>> 2a70ea4 (fix: remove outdated email link from footer social links)
       },
 >>>>>>> dc21834 (Update config.ts)
+=======
+>>>>>>> c0fa908 (fix: remove empty social link entry from footer configuration)
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
