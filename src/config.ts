@@ -131,6 +131,7 @@ export const themeConfig: ThemeConfig = {
     // social links
     links: [
       {
+<<<<<<< HEAD
         name: '来信',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +146,8 @@ export const themeConfig: ThemeConfig = {
 =======
         url: 'mailto:youngyue2018@outlook.com',
 >>>>>>> dd80563 (fix: remove unnecessary comment from footer email link)
+=======
+>>>>>>> 2a70ea4 (fix: remove outdated email link from footer social links)
       },
 >>>>>>> dc21834 (Update config.ts)
       // {
