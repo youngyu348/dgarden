@@ -136,6 +136,10 @@ export const themeConfig: ThemeConfig = {
   footer: {
     // social links
     links: [
+      {
+        name: '来信',
+        url: 'mailto:youngyue2018@outlook.com'
+      }  
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
