@@ -12,7 +12,7 @@ export const themeConfig: ThemeConfig = {
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: false, // true, false
     // author name
-    author: 'aeon_yu',
+    author: 'aeon.yu',
     // site url
     url: 'https://retypeset.radishzz.cc',
     // favicon url
