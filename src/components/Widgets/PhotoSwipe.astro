@@ -31,40 +31,6 @@ function setupPhotoSwipe() {
     tapAction: 'close',
   })
 
-  lightbox = new PhotoSwipeLightbox({
-    gallery: 'article.heti img',
-    pswpModule: () => pswp,
-    bgOpacity: 0.9,
-    padding: {
-      top: window.innerHeight * 0.1,
-      bottom: window.innerHeight * 0.1,
-      left: window.innerWidth * 0.073,
-      right: window.innerWidth * 0.073,
-    },
-    zoom: false,
-    close: false,
-    wheelToZoom: true,
-    imageClickAction: 'close',
-    tapAction: 'close',
-  })
-
-  lightbox = new PhotoSwipeLightbox({
-    gallery: 'article.heti img',
-    pswpModule: () => pswp,
-    bgOpacity: 0.9,
-    padding: {
-      top: window.innerHeight * 0.1,
-      bottom: window.innerHeight * 0.1,
-      left: window.innerWidth * 0.073,
-      right: window.innerWidth * 0.073,
-    },
-    zoom: false,
-    close: false,
-    wheelToZoom: true,
-    imageClickAction: 'close',
-    tapAction: 'close',
-  })
-
   // Set image dimensions
   lightbox.addFilter('domItemData', (itemData, element) => {
     if (element instanceof HTMLImageElement) {
@@ -87,13 +53,11 @@ function setupPhotoSwipe() {
 }
 
 function lazySetupPhotoSwipe() {
-  if (typeof window.requestIdleCallback === 'function') {
+  if ('requestIdleCallback' in window) {
     window.requestIdleCallback(() => setupPhotoSwipe(), { timeout: 1000 })
   }
   else {
-    requestAnimationFrame(() => {
-      setupPhotoSwipe()
-    })
+    setTimeout(setupPhotoSwipe, 100)
   }
 }
 
