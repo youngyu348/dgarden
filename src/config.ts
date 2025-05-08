@@ -38,11 +38,8 @@ export const themeConfig: ThemeConfig = {
     },
     dark: {
       // primary color
-      // used for title, hover, etc
-      // oklch color picker: https://oklch.com/
       primary: 'oklch(92% 0.005 298)',
       // secondary color
-      // used for post text
       secondary: 'oklch(77% 0.005 298)',
       // background color
       background: 'oklch(22% 0.005 298)',
@@ -84,7 +81,6 @@ export const themeConfig: ThemeConfig = {
       // gif search
       search: false, // true, false
       // image uploader
-      // bug: unable to hide image uploader icon
       imageUploader: false, // true, false
     },
   },
