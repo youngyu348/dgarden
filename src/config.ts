@@ -130,36 +130,10 @@ export const themeConfig: ThemeConfig = {
   footer: {
     // social links
     links: [
-<<<<<<< HEAD
-<<<<<<< HEAD
-      {
-<<<<<<< HEAD
-        name: '来信',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        url: 'mailto:youngyue2018@outlook.com'
-      }  
-=======
-        url: 'mailto:youngyue2018@outlook.com', // rss.xml, atom.xml
-=======
-        url: 'https://youngyue2018@outlook.com', // rss.xml, atom.xml
->>>>>>> 59de77d (Update config.ts)
-=======
-        url: 'mailto:youngyue2018@outlook.com',
->>>>>>> dd80563 (fix: remove unnecessary comment from footer email link)
-=======
->>>>>>> 2a70ea4 (fix: remove outdated email link from footer social links)
-      },
->>>>>>> dc21834 (Update config.ts)
-=======
->>>>>>> c0fa908 (fix: remove empty social link entry from footer configuration)
-=======
       {
         name: '来信',
         url: 'mailto:youngyue2018@outlook.com'
       }  
->>>>>>> dd0af00 (fix: update footer to include a new contact email link)
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
