@@ -30,12 +30,6 @@ function setupPhotoSwipe() {
     imageClickAction: 'close',
     tapAction: 'close',
   })
-  if (bodyElement.hasAttribute('data-photoswipe-initialized'))
-    return
-
-  const images = document.querySelectorAll('article.heti img')
-  if (images.length === 0)
-    return
 
   lightbox = new PhotoSwipeLightbox({
     gallery: 'article.heti img',
