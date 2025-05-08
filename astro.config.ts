@@ -17,6 +17,7 @@ import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
 const url = themeConfig.site.url
 const locale = themeConfig.global.locale
+const isKatexEnabled = themeConfig.global.katex
 const linkPrefetch = themeConfig.preload.linkPrefetch
 const imageHostURL = themeConfig.preload.imageHostURL
 const imageConfig = imageHostURL
@@ -29,6 +30,28 @@ const imageConfig = imageHostURL
       },
     }
   : {}
+
+const remarkPlugins = [
+  remarkDirective,
+  ...(isKatexEnabled ? [remarkMath] : []),
+  remarkAdmonitions,
+  remarkGithubCard,
+  remarkReadingTime,
+]
+
+const rehypePlugins = [
+  rehypeSlug,
+  ...(isKatexEnabled ? [rehypeKatex] : []),
+  rehypeImgToFigure,
+  [
+    rehypeExternalLinks,
+    {
+      target: '_blank',
+      rel: ['nofollow', 'noopener', 'noreferrer', 'external'],
+      protocols: ['http', 'https', 'mailto'],
+    },
+  ],
+] as any[]
 
 export default defineConfig({
   site: url,
@@ -60,25 +83,8 @@ export default defineConfig({
     robotsTxt(),
   ],
   markdown: {
-    remarkPlugins: [
-      remarkDirective,
-      remarkMath,
-      remarkAdmonitions,
-      remarkGithubCard,
-      remarkReadingTime,
-    ],
-    rehypePlugins: [
-      rehypeKatex,
-      rehypeImgToFigure,
-      [
-        rehypeExternalLinks,
-        {
-          target: '_blank',
-          rel: ['nofollow', 'noopener', 'noreferrer', 'external'],
-          protocols: ['http', 'https', 'mailto'],
-        },
-      ],
-    ],
+    remarkPlugins,
+    rehypePlugins,
     shikiConfig: {
       // Available themes: https://shiki.style/themes
       themes: {
