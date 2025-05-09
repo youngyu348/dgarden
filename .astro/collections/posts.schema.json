@@ -68,7 +68,12 @@
           "type": "string",
           "enum": [
             "",
-            "zh"
+            "zh",
+            "zh-tw",
+            "ja",
+            "en",
+            "es",
+            "ru"
           ],
           "default": ""
         },
