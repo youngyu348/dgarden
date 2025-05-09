@@ -1,0 +1,4 @@
+{
+  // VS Code 内置的 npm 插件会用这个字段来决定执行哪种 install/add 命令
+  "npm.packageManager": "pnpm"
+}

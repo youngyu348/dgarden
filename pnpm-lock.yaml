@@ -8,15 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@astrojs/partytown':
-        specifier: ^2.1.4
-        version: 2.1.4
       '@astrojs/rss':
         specifier: ^4.0.11
         version: 4.0.11
-      '@astrojs/sitemap':
-        specifier: ^3.3.1
-        version: 3.3.1
       '@waline/client':
         specifier: ^3.5.7
         version: 3.5.7(typescript@5.8.3)
@@ -81,6 +75,12 @@ importers:
       '@astrojs/mdx':
         specifier: ^4.2.6
         version: 4.2.6(astro@5.7.11(@types/node@22.15.15)(jiti@2.4.2)(lightningcss@1.29.3)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1))
+      '@astrojs/partytown':
+        specifier: ^2.1.4
+        version: 2.1.4
+      '@astrojs/sitemap':
+        specifier: ^3.3.1
+        version: 3.3.1
       '@types/markdown-it':
         specifier: ^14.1.2
         version: 14.1.2
