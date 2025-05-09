@@ -13,7 +13,6 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.6",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",
@@ -39,9 +38,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.0",
     "@astrojs/check": "^0.9.4",
+    "@astrojs/mdx": "^4.2.6",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.15.15",
     "@types/sanitize-html": "^2.16.0",
+    "@unocss/astro": "^66.1.1",
     "@unocss/eslint-plugin": "66.1.0",
     "@unocss/preset-attributify": "66.1.0",
     "@unocss/reset": "66.1.0",
