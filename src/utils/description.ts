@@ -62,9 +62,9 @@ export function generateExcerpt(
     .replace(/<[^>]*>/g, '')
 
   // Decode HTML entities using the mapping table
-  for (const [entity, char] of Object.entries(HTML_ENTITIES)) {
+  Object.entries(HTML_ENTITIES).forEach(([entity, char]) => {
     plainText = plainText.replace(new RegExp(entity, 'g'), char)
-  }
+  })
 
   // Replace line breaks with spaces
   const normalizedText = plainText.replace(/\s+/g, ' ')
