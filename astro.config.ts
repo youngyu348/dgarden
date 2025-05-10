@@ -68,7 +68,6 @@ export default defineConfig({
       remarkReadingTime,
     ],
     rehypePlugins: [
-      rehypeSlug,
       rehypeKatex,
       rehypeImgToFigure,
       [
