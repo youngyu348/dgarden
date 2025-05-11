@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     // site title
     title: '犹昔人',
     // site subtitle
-    subtitle: '引譬连类，返璞归真',
+    subtitle: '引譬连类，权实不二',
     // site description
     description: '',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
