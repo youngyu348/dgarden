@@ -4,27 +4,27 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: '犹昔人',
+    title: 'Retypeset',
     // site subtitle
-    subtitle: '引譬连类，权实不二',
+    subtitle: 'Revive the beauty of typography',
     // site description
-    description: '',
+    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: false, // true, false
+    i18nTitle: true, // true, false
     // author name
-    author: 'aeon.yu',
+    author: 'radishzz',
     // site url
-    url: 'https://www.soitwas.me/',
+    url: 'https://retypeset.radishzz.cc',
     // favicon url
     // recommended formats: svg, png or ico
-    favicon: 'public/icons/favicon.png', // or https://example.com/favicon.svg
+    favicon: '/icons/favicon.svg', // or https://example.com/favicon.svg
   },
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'auto', // light, dark, auto
+    mode: 'light', // light, dark, auto
     light: {
       // primary color
       // used for title, hover, etc
@@ -50,10 +50,10 @@ export const themeConfig: ThemeConfig = {
   // GLOBAL SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   global: {
     // default language
-    locale: 'zh', // zh, zh-tw, ja, en, es, ru
+    locale: 'zh', // zh, zh-tw, ja, en, es, ru, pt
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: [], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: ['zh-tw', 'ja', 'en', 'es', 'ru'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru', 'pt']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
@@ -131,16 +131,24 @@ export const themeConfig: ThemeConfig = {
     // social links
     links: [
       {
-        name: '来信',
-        url: 'mailto:youngyue2018@outlook.com'
-      }  
+        name: 'RSS',
+        url: '/rss.xml', // rss.xml, atom.xml
+      },
+      {
+        name: 'GitHub',
+        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+      },
+      {
+        name: 'X',
+        url: 'https://x.com/radishzz_',
+      },
       // {
       //   name: 'Email',
       //   url: 'https://example@gmail.com',
       // }
     ],
     // year of website start
-    startYear: 2025,
+    startYear: 2024,
   },
   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
