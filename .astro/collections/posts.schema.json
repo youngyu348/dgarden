@@ -67,7 +67,7 @@
         "lang": {
           "type": "string",
           "enum": [
-            "",
+            ""
           ],
           "default": ""
         },
