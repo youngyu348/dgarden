@@ -160,7 +160,7 @@ export const themeConfig: ThemeConfig = {
     links: [
       {
         name: '来信',
-        url: 'mailto:youngyue2018@outlook.com',   
+        url: 'youngyue2018@outlook.com',   
       },
       // {
       //   name: 'X',
