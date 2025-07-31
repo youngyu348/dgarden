@@ -14,7 +14,7 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'Aeon',
     // site url
-    url: '',
+    url: 'https://www.soitwas.me/',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icons/favicon.png', // or https://example.com/favicon.svg
