@@ -15,6 +15,8 @@ export const themeConfig: ThemeConfig = {
     author: 'Aeon',
     // site url
     url: 'https://www.soitwas.me/',
+    // base path (required by ThemeConfig)
+    base: '/',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icons/favicon.png', // or https://example.com/favicon.svg
