@@ -32,7 +32,11 @@ const siteSubtitle = i18nTitle ? currentUI.subtitle : subtitle
 const siteDescription = i18nTitle ? currentUI.description : description
 
 // Page Metadata
-const pageTitle = postTitle ? `${postTitle} | ${siteTitle}` : `${siteTitle} - ${siteSubtitle}`
+const pageTitle = postTitle
+  ? `${postTitle} | ${siteTitle}`
+  : siteSubtitle
+    ? `${siteTitle} - ${siteSubtitle}`
+    : siteTitle
 const pageDescription = postDescription || siteDescription
 const pageImage = postSlug
   ? new URL(`${base}/og/${postSlug}.png`, Astro.url.origin)
