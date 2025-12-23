@@ -12,7 +12,7 @@ export const themeConfig: ThemeConfig = {
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: false, // true | false
     // author name
-    author: '奕卬',
+    author: '周奕卬',
     // site url
     url: 'https://www.soitwas.me',
     // base path
@@ -165,6 +165,7 @@ export const themeConfig: ThemeConfig = {
         name: '来信',
         url: 'youngyue2018@outlook.com',
       },
+      { name: '订阅', url: '/atom.xml' },
       // {
       //   name: 'X',
       //   url: 'https://x.com/radishzz_',
